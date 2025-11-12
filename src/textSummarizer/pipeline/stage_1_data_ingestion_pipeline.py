@@ -14,3 +14,12 @@ class DataIngestionTrainingPipeline:
 
         data_ingestion.downlaod_file()
         data_ingestion.extract_zip_file()
+
+
+
+
+
+if __name__=="__main__":
+
+    data_ingest_pipeline=DataIngestionTrainingPipeline()
+    data_ingest_pipeline.initiate_data_ingestion()

@@ -24,6 +24,7 @@ list_of_files=[
     "app.py",
     "main.py",
     "Dockerfile",
+    "docker-compose.yml",
     "requirements.txt",
     "setup.py",
     "research/research.ipynb"
@@ -47,4 +48,4 @@ for filepath in list_of_files:
 
     
     else:
-        logging.info(f"{filename} is~ already exists")
+        logging.info(f"{filename}  already exists")
